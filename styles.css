@@ -38,12 +38,13 @@ button:hover {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    padding: 20px 0px;
+    background-color: #1f2937;
 }
 
 .intro .img {
     width: 500px;
     height: auto;
-    border: 1px solid;
 }
 
 .img img {
@@ -55,10 +56,33 @@ button:hover {
     max-width: 600px;
 }
 
+.card h1 {
+    font-size: 48px;
+    font-weight: 500;
+    color: #f9faf8;
+}
+
+.card p {
+    font-size: 18px;
+    color: #e5e7e5;
+}
+
+.card a button {
+    border-radius: 10px;
+    background-color: #3882f6;
+    border-color: #3882f6;
+    color: #f9faf8;
+}
+
 .hinfo {
-    height: 150px;
-    width: 150px;
+    height: 200px;
+    width: auto;
     border: 1px solid;
+}
+
+.hinfo img {
+    height: 200px;
+    width: auto;
 }
 
 .info {
